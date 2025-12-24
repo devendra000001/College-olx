@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Camera, Plus, X, ChevronDown } from 'lucide-react';
 
-export default function App() {
+export default function SellForm() {
+ {
   const [title, setTitle] = useState('');
   const [price, setPrice] = useState('');
   const [description, setDescription] = useState('');
