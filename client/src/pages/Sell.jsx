@@ -1,10 +1,13 @@
+import Header from "../components/Header";
 import SellForm from "../components/SellForm";
 
 export default function Sell() {
   return (
-    <Header />
-    <div className="min-h-screen bg-gray-50">
-      <SellForm />
-    </div>
+    <>
+      <Header />
+      <main>
+        <SellForm />
+      </main>
+    </>
   );
 }
